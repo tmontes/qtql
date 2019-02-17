@@ -5,10 +5,8 @@ environment:
 
 init:
   - cmd: ver
-  - cmd: cd
-  - cmd: python --version
 
 install:
   - cmd: cd
-  - cmd: python --version
-  - cmd: python -m pip install .[dev]
+  - cmd: %PYTHON%\python --version
+  - cmd: %PYTHON%\python -m pip install .[dev]
