@@ -10,3 +10,8 @@ install:
   - cmd: cd
   - cmd: "%PYTHON%\\python --version"
   - cmd: "%PYTHON%\\python -m pip install .[dev]"
+
+build: off
+
+test_script:
+  - cmd: "%PYTHON%\\python -m pytest"
