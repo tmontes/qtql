@@ -8,5 +8,5 @@ init:
 
 install:
   - cmd: cd
-  - cmd: %PYTHON%\python --version
-  - cmd: %PYTHON%\python -m pip install .[dev]
+  - cmd: "%PYTHON%\\python --version"
+  - cmd: "%PYTHON%\\python -m pip install .[dev]"
