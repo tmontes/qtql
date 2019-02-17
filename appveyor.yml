@@ -1,0 +1,14 @@
+environment:
+  matrix:
+    - PYTHON: "C:\\Python36"
+    - PYTHON: "C:\\Python36-x64"
+
+init:
+  - cmd: ver
+  - cmd: cd
+  - cmd: python --version
+
+install:
+  - cmd: cd
+  - cmd: python --version
+  - cmd: python -m pip install .[dev]
