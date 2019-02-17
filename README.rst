@@ -9,7 +9,7 @@ Motivation: understand why this `PR <https://github.com/mu-editor/mu/pull/764>`_
 Installation
 ------------
 
-Clone and install width:
+Clone and install with:
 
 .. code-block:: console
 
@@ -31,7 +31,7 @@ Using
 Testing
 -------
 
-.. clode-block:: console
+.. code-block:: console
 
 	$ pip install -e .[dev]
 	$ pytest
