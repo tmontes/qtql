@@ -1,4 +1,4 @@
-from PyQt5.Qt import QLocale
+from PyQt5.QtCore import QLocale
 
 
 def name():
