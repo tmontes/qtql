@@ -8,6 +8,12 @@ Motivation: understand why this `PR <https://github.com/mu-editor/mu/pull/764>`_
 AppVeyor project page is `here <https://ci.appveyor.com/project/tmontes/qtql>`_.
 
 
+Lesson
+------
+
+For some reason, importing `QLocale` with `from PyQt5.Qt import QLocale` leads to AppVeyor import time hangs; the solution seems to be importing it with `from PyQt5.QtCore import QLocale`, instead.
+
+
 Installation
 ------------
 
